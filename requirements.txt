@@ -8,6 +8,7 @@ anyio==4.13.0
 astunparse==1.6.3
 attrs==25.3.0
 bcrypt==5.0.0
+beanie==2.1.0
 beautifulsoup4==4.14.3
 blinker==1.9.0
 certifi==2025.4.26
@@ -59,6 +60,7 @@ packaging==25.0
 pandas==2.2.3
 passlib==1.7.4
 peewee==4.0.3
+pillow==12.2.0
 platformdirs==4.9.4
 propcache==0.3.1
 protobuf==7.34.1
@@ -67,7 +69,6 @@ PyAutoGUI==0.9.54
 pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
-pygame==2.6.1
 PyGetWindow==0.0.9
 Pygments==2.19.2
 pymongo==4.16.0
@@ -81,6 +82,7 @@ pytweening==1.2.0
 pytz==2025.2
 PyYAML==6.0.2
 regex==2024.11.6
+reportlab==4.4.10
 requests==2.32.3
 rich==14.3.3
 safetensors==0.5.3
