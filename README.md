@@ -120,44 +120,7 @@ The app auto-seeds demo data on first launch so the dashboard is populated immed
 
 ## ☁️ Deployment
 
-### Option A — Render (recommended, free tier)
-
-1. Push the project to a GitHub repo
-2. Go to [render.com](https://render.com) → New → Web Service
-3. Connect your repo
-4. Set:
-   - **Build command:** `pip install -r requirements.txt`
-   - **Start command:** `gunicorn app:create_app()`
-5. Add env var: `SECRET_KEY=your-random-secret`
-6. Deploy ✅
-
-Add `gunicorn` to requirements.txt for production:
-```
-gunicorn==21.2.0
-```
-
-### Option B — Railway
-
-```bash
-railway init
-railway up
-```
-
-### Option C — Docker
-
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
-EXPOSE 5000
-CMD ["python", "app.py"]
-```
-
-```bash
-docker build -t fintrack .
-docker run -p 5000:5000 fintrack
-```
+Render link : https://fintrack-project-1.onrender.com/ 
 
 ---
 
